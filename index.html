@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Learner Page </title>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!--My Css-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <h1>GOWTHAMRAJ NETWORK</h1>
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="#"> Home </a></p>
+            <p class="navbar-link"><a href="#"> Courses </a></p>
+            <p class="navbar-link"><a href="#"> Articles </a></p>
+            <p class="navbar-link"><a href="#"> Team </a></p>
+            <p class="navbar-link"><a href="#"> Login </a></p>
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="shownavbar()">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+    </nav>
+
+    <!--Side Navbar-->
+    <div class="side-navbar">
+        <p class="cross-symbol" onclick="closenavbar()"> <i class="fa fa-times" aria-hidden="true"></i> </p>
+        <h1>GOWTHAMRAJ NETWORK</h1>
+        
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="#"> Home </a></p>
+            <p class="side-navbar-link"><a href="#"> Courses </a></p>
+            <p class="side-navbar-link"><a href="#"> Articles </a></p>
+            <p class="side-navbar-link"><a href="#"> Team </a></p>
+            <p class="side-navbar-link"><a href="#"> Login </a></p>
+        </div>
+    </div>
+
+    <!--Header-->
+
+    <div class="header">
+        <div class = header-text>
+            <h1><span>Optimal Learning </span> at Minimal Expense.</h1>
+
+            <P><i class="fa fa-circle" aria-hidden="true"></i> Access to high-quality courses without the high price tag.</P>
+            <p><i class="fa fa-circle" aria-hidden="true"></i> Learn from industry professionals and experienced educators.</p>
+            <p><i class="fa fa-circle" aria-hidden="true"></i> Regular updates and new course offerings to keep your skills sharp.</p>
+            <p><i class="fa fa-circle" aria-hidden="true"></i> Start learning today with confidence, knowing you're getting the best value for your money.</p>
+            <p><i class="fa fa-circle" aria-hidden="true"></i> One-Year Unlimited Access: Pay Only Subscription Fees Until July 15, 2025.</p>
+
+            <button class="enroll-btn" onclick="enroll()"> Enroll Now / Subscribe</button><br>
+        </div>
+
+    </div>
+
+    <!--Social Profiles-->
+
+    <div class="social-media-profiles">
+        <h2> Our CEO Social Media Profiles </h2>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/gowthamraj_ceg/"> <i class="fa fa-instagram" aria-hidden="true"></i> </a>
+            <a href="https://m.youtube.com/@GOWTHAMRAJNETWORK"> <i class="fa fa-youtube-play" aria-hidden="true"></i> </a>
+            <a href="https://www.linkedin.com/in/gowthamrajceg?originalSubdomain=in"> <i class="fa fa-linkedin" aria-hidden="true"></i> </a>
+            <a href="https://www.facebook.com/gowthamrajnetwork"> <i class="fa fa-facebook" aria-hidden="true"></i> </a>
+        </div>
+    </div>
+
+    <div class="social-media-profiles">
+        <h2> Our Campany Social Media Profiles </h2>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/gowthamraj_network/"> <i class="fa fa-instagram" aria-hidden="true"></i> </a>
+            <a href="https://m.youtube.com/@GOWTHAMRAJNETWORK"> <i class="fa fa-youtube-play" aria-hidden="true"></i> </a>
+            <a href="https://www.linkedin.com/company/gowthamrajnetwork/"> <i class="fa fa-linkedin" aria-hidden="true"></i> </a>
+            <a href="https://www.facebook.com/gowthamrajnetwork"> <i class="fa fa-facebook" aria-hidden="true"></i> </a>
+        </div>
+    </div>
+
+    <!--Subscribe plans-->
+
+    <div class="Subscribe-plan"> 
+        <p class="close-sub-plan" onclick="closesubplan()"> <i class="fa fa-times" aria-hidden="true"></i> </p>
+        <marquee> Our Subscription Plan </marquee>
+        <h2><span>Education Redefined:</span> Access Unlimited Courses with Only Platform and Subscription Fees</h2>
+        
+        <div class="offers">
+            <div class="special-offer">
+                <h2> Special Offer </h2>
+                <h3> Membership Yearly - 1 Member</h3>
+                <p><i class="fa fa-certificate" aria-hidden="true"></i> One time payment & access all benefits</p>
+                <p><i class="fa fa-certificate" aria-hidden="true"></i> inculdes all courses in our platform</p>
+                <p><i class="fa fa-certificate" aria-hidden="true"></i> 1 User can Get Access</p>
+                <p><i class="fa fa-certificate" aria-hidden="true"></i> Your Comprehensive Learning Solution with Platform </p>
+                <p><i class="fa fa-certificate" aria-hidden="true"></i> Subscription Fees, Including Annual Membership</p>
+                <div class="rupees">
+                    <h4><i class="fa fa-inr" aria-hidden="true">750</i></h4> 
+                    <p><i class="fa fa-inr" aria-hidden="true">2100</i></p>
+                </div>
+                <button class="pay-btn">Continue & Pay</button>
+            </div>
+
+            <div class="special-offer">
+                <h2> Special Offer </h2>
+                <h3> Combo Pack Yearly - 4 Member</h3>
+                <p><i class="fa fa-certificate" aria-hidden="true"></i> One time payment & access all benefits</p>
+                <p><i class="fa fa-certificate" aria-hidden="true"></i> inculdes all courses in our platform</p>
+                <p><i class="fa fa-certificate" aria-hidden="true"></i> Maximum 4 User can Get Access</p>
+                <p><i class="fa fa-certificate" aria-hidden="true"></i> Your Comprehensive Learning Solution with Platform </p>
+                <p><i class="fa fa-certificate" aria-hidden="true"></i> Subscription Fees, Including Annual Membership</p>
+                <div class="rupees">
+                    <h4><i class="fa fa-inr" aria-hidden="true">1600</i></h4> 
+                    <p><i class="fa fa-inr" aria-hidden="true">5000</i></p>
+                </div>
+                <button class="pay-btn">Continue & Pay</button>
+            </div>
+        </div>
+
+        <h1>Already Subscribed? <a href="#">Login Here</a></h1>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
