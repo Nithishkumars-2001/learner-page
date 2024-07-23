@@ -26,7 +26,7 @@
             <p class="navbar-link"><a href="#"> Courses </a></p>
             <p class="navbar-link"><a href="#"> Articles </a></p>
             <p class="navbar-link"><a href="#"> Team </a></p>
-            <p class="navbar-link"><a href="#"> Login </a></p>
+            <p class="navbar-link"><a href="#" onclick="showloginpage()"> Login </a></p>
         </div>
 
         <div class="navbar-menu-toggle" onclick="shownavbar()">
@@ -44,7 +44,8 @@
             <p class="side-navbar-link"><a href="#"> Courses </a></p>
             <p class="side-navbar-link"><a href="#"> Articles </a></p>
             <p class="side-navbar-link"><a href="#"> Team </a></p>
-            <p class="side-navbar-link"><a href="#"> Login </a></p>
+            <p class="side-navbar-link"><a href="#" onclick="enroll()"> Subscribe </a></p>
+            <p class="side-navbar-link"><a href="#" onclick="showloginpage()"> Login </a></p>
         </div>
     </div>
 
@@ -126,8 +127,45 @@
             </div>
         </div>
 
-        <h1>Already Subscribed? <a href="#">Login Here</a></h1>
+        <h1>Already Subscribed? <a href="#" onclick="showloginpage()">Login Here</a></h1>
 
+    </div>
+
+    <!--Login Page-->
+
+    <div class="login-page">
+        <p class="close-loginpage" onclick="closeloginpage()"> <i class="fa fa-times" aria-hidden="true"></i> </p>
+        <h1>Gowthamraj Network</h1>
+        <div class="login-item">
+            <div class="login-box">
+                <h3> If Already Subscribed! Login</h3>
+                <form>
+                    <input type="email" placeholder="Email">
+                    <input type="text" placeholder="Password"><br>
+                    <button> Login </button>
+                </form>
+                <h4> Not Subscribtion Yet, <a href="#">Click here to Scbscribe</a></h4>
+            </div>
+
+            <div class="contactUS">
+                <h2> Contact US</h2>
+                <form>
+                    <input type="text" placeholder="Name"> <br>
+                    <input type="text" placeholder="Subject"> <br>
+                    <input type="email" placeholder="E-mail"> <br>
+                    <textarea type="text" placeholder="How can we help you?"></textarea> <br>
+                    <button> sent </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="details">
+            <p>Gowthamraj Network</p>
+            <p>Chennai, TamilNadu</p>
+            <p>info@doc.com</p>
+            <p>+91 1234567890</p>
+            <p>www.gowthamrajnetwork.com</p>
+        </div>
     </div>
 
 
