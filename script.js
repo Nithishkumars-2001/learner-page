@@ -33,4 +33,20 @@ function closeloginpage()
 {
     login_page.style.display = "none"
 }
+function  showsubplan()
+{
+    login_page.style.display = "none"
+    Subscribe_plan.style.display = "block"
+}
 
+// select My Courses
+var courses_container = document.querySelector(".courses-container")
+
+function showmycourses()
+{
+    courses_container.style.display = "block"
+}
+function closemycourses()
+{
+    courses_container.style.display = "none"
+}
